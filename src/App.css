@@ -6,9 +6,9 @@
 }
 .QuizEnd {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: row;
-  text-align: center;
+  /* text-align: center; */
   font-size: 2em;
   padding-top: 20px;
 }
@@ -20,16 +20,43 @@ ul {
   padding: 0;
   margin: 0;
 }
+li{
+  list-style: none;
+
+}
+p{
+  margin-left: 20px;
+}
 .buttons {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  /* justify-content: center;
+  text-align: center; */
+  margin-left: 20px;
 }
 button {
-  margin: 0.6em auto;
+  /* margin: 0.6em auto; */
   font-size: 1.5em;
   display: block;
 }
 .error {
   color: red;
+}
+.quiz-header{
+  width: 100%;
+  display: flex;
+  background-color: #cccccc;
+}
+.quiz-header h1{
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+button{
+  background: none;
+  border: none;
+}
+.quiz-end{
+  margin-left: 20px;
 }
